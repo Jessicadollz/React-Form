@@ -1,8 +1,20 @@
-# React + Vite
+# User Registration using Formik and Yup
+[Hosted Link](https://react-form-jd.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a user registration form using React and Formik. The form includes fields for name, email, password, and confirm password, with validation provided by a schema defined using Yup.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+- Form Validation: Utilizes Formik and Yup for form handling and validation.
+- Real-time Feedback: Provides real-time validation feedback for each form field.
+- Responsive Design: Includes a basic responsive layout for the registration form.
+- Form Submission: On successful submission, the form displays a success message and logs the user data.
+
+### Dependencies
+- React: A JavaScript library for building user interfaces.
+- Formik: A library for building and managing forms in React.
+- Yup: A JavaScript schema builder for value parsing and validation.
+
+## Hosted Link
+
+[Click Me!](https://react-form-jd.vercel.app/)

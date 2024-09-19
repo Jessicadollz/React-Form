@@ -12,7 +12,7 @@ const initialValues = {
 
 function Registration() {
 
-   const { values, errors, touched, handleBlur, handleChange, handleSubmit } = useFormik({
+   const { values, errors, touched, handleBlur, handleChange, handleSubmit, isValid, dirty } = useFormik({
         initialValues: initialValues,
         validationSchema: signUpSchema,
         onSubmit : (values, action) => {
@@ -69,7 +69,7 @@ function Registration() {
 
                         <div className="modal-buttons">
                             
-                            <button className="input-button" type="submit">
+                            <button className="input-button" type="submit" disabled={!(isValid && dirty)} >
                                 SIGN UP
                             </button>
                         </div>
